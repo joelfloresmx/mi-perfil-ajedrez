@@ -425,9 +425,7 @@
                 <form action="https://formspree.io/f/mwpnyeqy" method="POST" id="contactForm" style="margin-top: 30px;">
                     <!-- Campos ocultos -->
                     <input type="hidden" name="_next" value="https://joelfloresmx.github.io/mi-perfil-ajedrez">
-                    <input type="hidden" name="_subject" value="Nuevo mensaje desde página de ajedrez">
-                    <input type="hidden" name="_captcha" value="false">
-    
+                    
                     <div class="form-group">
                         <label for="name">Nombre Completo *</label>
                         <input type="text" id="name" name="name" required>
@@ -534,6 +532,7 @@
                 }, 3000);
             });
         });
+        /*
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
@@ -556,7 +555,7 @@
                 }, 5000);
             }, 1500);
         });
-
+        */
         // Animación de las cartas de servicio
         document.querySelectorAll('.service-card').forEach((card, index) => {
             card.style.animationDelay = `${index * 0.1}s`;
